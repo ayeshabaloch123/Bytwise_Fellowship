@@ -1,0 +1,139 @@
+h2{
+    color: green;
+}
+body{
+    /* background-color: aqua; */
+    /* font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal; */
+
+    /* Same as above */
+    font: normal 16px 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+}
+.main{
+    background-color: black;
+}
+.main p{
+    color: white;
+    margin: 0;
+}
+.container{
+    /* width: 500px; not responsive */
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    /* border-bottom: 5px red solid;
+    border-top: 5px red solid;
+    border-left: 5px red solid;
+    border-right: 5px red solid; */
+
+    /* same as above */
+    border: 5px red solid;
+
+    border-width: 3px;
+    border-bottom-width: 8px;
+    padding: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 10px;
+}
+.container h2{
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+
+}
+.box-2{
+    border: dotted 2px blue;
+    margin: 20px;
+    padding: 20px;
+}
+.portion{
+    border: 2px #333 solid;
+    padding: 15px;
+    /* text-align: center; */
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+.portion li{
+    padding-bottom: 5px;
+    border-bottom: 1px #333 dotted;
+    /* list-style-image: url('check.jpg'); */
+    
+}
+.My-form{
+    padding: 30px;
+}
+.My-form label{
+    display: block;
+}
+.My-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+} 
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px gray solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.p-box{
+    width: 800px; 
+    height: 500px; 
+    position: relative;
+    border: 1px  #000 solid;
+    /* margin-top: 30px; */
+    /* margin-top: 50px; */
+    padding: 20px;
+    margin-top: 15%;
+    background-image: url('pic.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.my-list li:first-child{
+    background: rebeccapurple;
+
+}
+.my-list li:last-child{
+    background: red;
+
+}
+.my-list li:nth-child(5){
+    background: yellow;
+
+}
+.my-list li:nth-child(even){
+    background: lightslategray;
+
+}
